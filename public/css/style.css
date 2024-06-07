@@ -155,3 +155,38 @@ footer.redes-sociais a {
   }
 }
 
+
+.carrosel-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carrosel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carrosel img {
+  min-width: 100%;
+  display: none;
+}
+
+.carrosel img.active {
+  display: block;
+  margin: auto;
+}
+
+.carrosel-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carrosel-buttons button {
+  margin: 0 5px;
+  padding: 10px;
+}
+
